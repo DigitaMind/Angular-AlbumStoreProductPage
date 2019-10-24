@@ -70,7 +70,7 @@ describe("ProductListComponent", () => {
     );
 
     assert(
-      anchorTag.attr()["routerlink"].match(/\s*\/product\/{{product.id}}\s*/),
+      anchorTag.attr()["routerlink"].match(/\s*\/product\/{{ product.id }}\s*/),
       "The `routerLink` directive doesn't have `/product/{{product.id}}` as its value."
     );
 
